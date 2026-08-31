@@ -1,0 +1,22 @@
+:root{
+  --bg1:#FFF7F2;
+  --bg2:#FFEAF1;
+  --card:#FFFFFFCC;
+  --text:#2B2B2B;
+  --muted:#6B6B6B;
+  --pink:#FF6FA5;
+  --pink2:#FF9FC0;
+  --gold:#E8C7A1;
+  --line:#F2D7E2;
+  --shadow: 0 10px 30px rgba(255,111,165,.12);
+  --shadow2: 0 6px 18px rgba(0,0,0,.06);
+  --radius: 18px;
+}
+
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  font-family: "Noto Sans TC", system-ui, -apple-system, "PingFang TC", "Microsoft JhengHei", sans-serif;
+  color:var(--text);
+  background: radial-gradient(1200px
