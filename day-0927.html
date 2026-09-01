@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-HK">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Day 6｜2026/09/27｜心動解鎖任務</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body data-page="day" data-day="0927">
+  <div class="container">
+    <div class="header">
+      <div class="badge" id="statusBadge">🔒 未解鎖</div>
+      <div style="height:12px"></div>
+      <h1 class="h1" id="dayTitle">Day 6｜2026/09/27</h1>
+      <div class="sub" id="dayMeta">大阪→回港</div>
+    </div>
+
+    <div id="lockedPanel" class="card">
+      <div class="section-title">🔐 今日密碼</div>
+      <div class="row stack" style="margin-top:10px;">
+        <input id="passwordInput" type="password" placeholder="輸入心動密語…" />
+        <button id="unlockBtn" class="btn btn-primary">解鎖</button>
+      </div>
+      <div id="hintList" style="margin-top:10px;"></div>
+      <div class="hr"></div>
+      <div class="sub">提示：密碼係「心動密語未完」</div>
+    </div>
+
+    <div id="unlockedPanel" style="display:none;">
+      <div class="card">
+        <div class="section-title">✅ 今日任務</div>
+        <div class="sub">完成任務會自動保存記錄，同時會有細緻小閃光。</div>
+      </div>
+
+      <div id="missionsRoot"></div>
+
+      <div style="height:14px"></div>
+      <div class="row stack" style="justify-content:space-between;">
+        <a class="btn btn-ghost" href="missions.html">← 返回任務目錄</a>
+        <a class="btn btn-primary" href="missions.html">回到目錄 →</a>
+      </div>
+    </div>
+
+    <div style="height:18px"></div>
+    <div class="sub" style="text-align:center;">— BB 專屬任務總監 FHL</div>
+  </div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
