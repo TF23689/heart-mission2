@@ -1,0 +1,402 @@
+{
+  "site": {
+    "title": "名古屋大阪 心動解鎖任務",
+    "dateRange": "2026/09/22～2026/09/27",
+    "language": "zh-HK",
+    "theme": "sweet-cream-pink",
+    "signature": "— BB 專屬任務總監 FHL",
+    "passphraseSeriesName": "心動密語"
+  },
+  "days": [
+    {
+      "id": "0922",
+      "date": "2026/09/22",
+      "city": "名古屋",
+      "label": "Day 1",
+      "password": {
+        "answer": "心動密語啟動",
+        "hints": [
+          "BB，你而家即將進入只屬於我哋嘅頻道。",
+          "第一關唔使做到滿分，只要你肯開始就得。",
+          "請輸入心動密語指令，啟動今日任務。"
+        ],
+        "successToast": "心動密語認證成功 ✨",
+        "successSubToast": "ACCESS GRANTED ✅ BB 今日任務解鎖"
+      },
+      "sections": [
+        {
+          "time": "15:50",
+          "title": "落機後",
+          "missions": [
+            {
+              "id": "0922-1550-main-photo",
+              "type": "main",
+              "title": "落地合照：第一張",
+              "description": "搵一個「一眼就知係日本」嘅位影合照一張。",
+              "reward": "已記錄｜第一張回憶到手 💗"
+            },
+            {
+              "id": "0922-1550-side-voice",
+              "type": "side",
+              "title": "旅程語音膠囊",
+              "description": "各自錄 10 秒：最期待今次旅行乜嘢（返酒店先聽返）。",
+              "reward": "已收藏｜留低你把聲 ✨"
+            }
+          ]
+        },
+        {
+          "time": "18:30",
+          "title": "到酒店／放低行李後",
+          "missions": [
+            {
+              "id": "0922-1830-main-room",
+              "type": "main",
+              "title": "房間開箱：入住儀式",
+              "description": "你負責開窗/拉簾；我負責揀一首「今次旅行主題歌」。",
+              "reward": "啟動成功｜今晚由我哋做主角"
+            },
+            {
+              "id": "0922-1830-side-konbini",
+              "type": "side",
+              "title": "便利店 3 選 1",
+              "description": "每人揀一樣「未食過」甜品/飲品；揀完先揭曉。",
+              "reward": "小驚喜完成｜BB 好識揀 😌"
+            }
+          ]
+        },
+        {
+          "time": "22:30",
+          "title": "睡前",
+          "missions": [
+            {
+              "id": "0922-2230-main-one-line",
+              "type": "main",
+              "title": "今日最開心：一句話",
+              "description": "各自寫一句「今日最開心係……」。",
+              "reward": "已封存｜呢句我會記好耐"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0923",
+      "date": "2026/09/23",
+      "city": "白川鄉＋高山",
+      "label": "Day 2",
+      "password": {
+        "answer": "心動密語連線",
+        "hints": [
+          "BB，第二關要出發喇。",
+          "今日可能早出晚歸，但我想你全程都舒服。",
+          "請輸入心動密語指令，建立連線。"
+        ],
+        "successToast": "已連線成功 ✨",
+        "successSubToast": "VERIFIED ✅ 今日任務可開始"
+      },
+      "sections": [
+        {
+          "time": "08:00",
+          "title": "出發前",
+          "missions": [
+            {
+              "id": "0923-0800-main-check",
+              "type": "main",
+              "title": "旅行隊長：出發檢查",
+              "description": "三寶：護照/銀包/手機（＋充電器/行動電源）。",
+              "reward": "準備就緒｜BB 安全感 +1"
+            },
+            {
+              "id": "0923-0800-side-photo-angles",
+              "type": "side",
+              "title": "合掌村打卡：指定角度",
+              "description": "我指定你影一張「像明信片」嘅景；你指定我影一張「像電影」嘅人像。",
+              "reward": "拍攝完成｜我哋好上鏡 🥺"
+            }
+          ]
+        },
+        {
+          "time": "12:30",
+          "title": "高山／午餐時段",
+          "missions": [
+            {
+              "id": "0923-1230-main-hida",
+              "type": "main",
+              "title": "飛驒牛儀式：一口形容",
+              "description": "食第一口之前，各講一個形容詞（例如：溫柔/濃郁/幸福）。",
+              "reward": "儀式完成｜幸福已上線"
+            }
+          ]
+        },
+        {
+          "time": "21:30",
+          "title": "回到名古屋／睡前",
+          "missions": [
+            {
+              "id": "0923-2130-main-save-one",
+              "type": "main",
+              "title": "今日最想保存的一幕",
+              "description": "揀 1 張今日相片，寫一句原因。",
+              "reward": "已保存｜今晚嘅你，好可愛"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0924",
+      "date": "2026/09/24",
+      "city": "名古屋",
+      "label": "Day 3",
+      "password": {
+        "answer": "心動密語升級",
+        "hints": [
+          "第三關：慢慢嚟，我想你享受每一步。",
+          "完成任務唔係重點，重點係我哋一齊。",
+          "請輸入心動密語指令，升級心動值。"
+        ],
+        "successToast": "升級成功 ✨",
+        "successSubToast": "STATUS: 心動值 +++"
+      },
+      "sections": [
+        {
+          "time": "10:00",
+          "title": "上午",
+          "missions": [
+            {
+              "id": "0924-1000-main-top3",
+              "type": "main",
+              "title": "名古屋 Top 3",
+              "description": "寫：Top 1 食物／Top 1 相片／Top 1 片刻。",
+              "reward": "已整理｜回憶更清晰咗"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "title": "下午",
+          "missions": [
+            {
+              "id": "0924-1600-side-souvenir",
+              "type": "side",
+              "title": "手信任務：盲抽交換",
+              "description": "各自用小額 budget 買一樣「對方會用得著」嘅小物（唔可以整蠱）。",
+              "reward": "交換完成｜你揀嘅我會好珍惜"
+            }
+          ]
+        },
+        {
+          "time": "21:30",
+          "title": "睡前",
+          "missions": [
+            {
+              "id": "0924-2130-main-preview",
+              "type": "main",
+              "title": "大阪預告片：明日想做乜",
+              "description": "各自揀 1 樣（食/買/影相）。",
+              "reward": "預告完成｜下一章準備開"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0925",
+      "date": "2026/09/25",
+      "city": "大阪（梅田）",
+      "label": "Day 4",
+      "password": {
+        "answer": "心動密語開圖",
+        "hints": [
+          "新城市開圖。",
+          "今日你負責可愛，我負責跟住你。",
+          "請輸入心動密語指令，開啟地圖。"
+        ],
+        "successToast": "地圖已開 ✨",
+        "successSubToast": "大阪模式 ON ✅"
+      },
+      "sections": [
+        {
+          "time": "15:00",
+          "title": "到梅田／入住 Canopy 後",
+          "missions": [
+            {
+              "id": "0925-1500-main-umeda-photo",
+              "type": "main",
+              "title": "新城市開圖：梅田第一張",
+              "description": "喺酒店附近搵個「一眼就知係大阪」嘅角落影合照。",
+              "reward": "開圖成功｜大阪第一張到手 💞"
+            },
+            {
+              "id": "0925-1500-side-room-detail",
+              "type": "side",
+              "title": "房間巡禮：我最鍾意嘅細節",
+              "description": "各自搵房內一個最喜歡嘅細節（燈/窗/梳化/景），寫 1 句原因。",
+              "reward": "已記錄｜原來你鍾意呢種感覺"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "title": "晚飯前",
+          "missions": [
+            {
+              "id": "0925-1900-main-dinner-vote",
+              "type": "main",
+              "title": "晚飯投票：2 選 1",
+              "description": "我哋各自揀 A/B，同步揭曉；中咗嘅就去嗰間（不可反悔）。A：____  B：____",
+              "reward": "投票完成｜今晚由命運安排 😌"
+            }
+          ]
+        },
+        {
+          "time": "22:30",
+          "title": "睡前",
+          "missions": [
+            {
+              "id": "0925-2230-side-thanks",
+              "type": "side",
+              "title": "今日一句：多謝你",
+              "description": "各自講一句今日想多謝對方嘅事（越小越好）。",
+              "reward": "已收下｜我都想多謝你"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0926",
+      "date": "2026/09/26",
+      "city": "大阪（梅田）",
+      "label": "Day 5",
+      "password": {
+        "answer": "心動密語閃光",
+        "hints": [
+          "第五關有少少儀式感。",
+          "今晚每一下心動，我都想你感受到。",
+          "請輸入心動密語指令，召喚閃光。"
+        ],
+        "successToast": "閃光已召喚 ✨",
+        "successSubToast": "BB 今日會更發光"
+      },
+      "sections": [
+        {
+          "time": "10:00",
+          "title": "出門前",
+          "missions": [
+            {
+              "id": "0926-1000-main-stylist",
+              "type": "main",
+              "title": "購物任務：對方造型師",
+              "description": "互相幫對方揀一件「小單品」（襪/飾物/護手霜都得），要真係會用。",
+              "reward": "完成｜你交俾我，我會好好用"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "title": "下午休息",
+          "missions": [
+            {
+              "id": "0926-1500-side-top3-photos",
+              "type": "side",
+              "title": "今日精選：三張相",
+              "description": "揀 3 張：最喜歡自己／最喜歡對方／最像電影。",
+              "reward": "已精選｜我哋好似一套戲"
+            }
+          ]
+        },
+        {
+          "time": "19:30",
+          "title": "晚飯：Omakase",
+          "missions": [
+            {
+              "id": "0926-1930-main-omakase",
+              "type": "main",
+              "title": "Omakase 規則：慢慢食",
+              "description": "每上一道，講一個感受詞（清爽/驚喜/溫柔…），唔使長篇大論。",
+              "reward": "儀式完成｜我想同你慢慢過日子"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0927",
+      "date": "2026/09/27",
+      "city": "大阪→回港",
+      "label": "Day 6",
+      "password": {
+        "answer": "心動密語未完",
+        "hints": [
+          "最後一關：任務會完，但我對你唔會完。",
+          "如果你有少少唔捨得，咁就啱喇。",
+          "請輸入心動密語指令，解鎖「未完待續」。"
+        ],
+        "successToast": "最後一關已解鎖 ✨",
+        "successSubToast": "STATUS: 未完待續 ✅"
+      },
+      "sections": [
+        {
+          "time": "09:00",
+          "title": "出門前",
+          "missions": [
+            {
+              "id": "0927-0900-main-3items",
+              "type": "main",
+              "title": "最後檢查：三寶",
+              "description": "護照／銀包／手機（＋充電器）。",
+              "reward": "確認完成｜我想你平安返到我身邊"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "title": "去機場/車站路上",
+          "missions": [
+            {
+              "id": "0927-1200-side-next-trip",
+              "type": "side",
+              "title": "下次旅行提案",
+              "description": "你想去：____（原因：____）／我想去：____（原因：____）",
+              "reward": "已立案｜下一個任務已排期 💗"
+            }
+          ]
+        },
+        {
+          "time": "22:00",
+          "title": "到家後／翌日",
+          "missions": [
+            {
+              "id": "0927-2200-main-wrap",
+              "type": "main",
+              "title": "旅程結算：我們的 6 日",
+              "description": "填 3 句：最記得／我發現你原來／我希望下次我哋可以",
+              "reward": "結算完成｜但我哋未完"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "uiText": {
+    "buttons": {
+      "startMission": "開始任務 →",
+      "unlock": "解鎖",
+      "markDone": "完成任務",
+      "backToMissions": "← 返回任務目錄",
+      "nextDay": "下一日 →",
+      "resetProgress": "重置記錄"
+    },
+    "labels": {
+      "locked": "🔒 未解鎖",
+      "unlocked": "✅ 已解鎖",
+      "main": "主線",
+      "side": "支線"
+    }
+  },
+  "storageKeys": {
+    "unlockedDays": "heartcode_unlocked_days",
+    "doneMissions": "heartcode_done_missions"
+  }
+}
